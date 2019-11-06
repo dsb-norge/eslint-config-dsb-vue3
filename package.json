@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-dsb-vue",
+  "version": "1.0.0",
+  "description": "ESLint standard config for Vue.js projects",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": "Nils Lien <nils.lien@dsb.no>",
+  "license": "ISC",
+  "peerDependencies": {
+    "babel-eslint": ">=10.0.3 <11",
+    "eslint": ">=6.6.0 <7",
+    "eslint-config-standard": ">=14.1.0 <15",
+    "eslint-plugin-import": ">=2.18.2 <3",
+    "eslint-plugin-node": ">=10.0.0 <11",
+    "eslint-plugin-promise": ">=4.2.1 <5",
+    "eslint-plugin-standard": ">=4.0.1 <5",
+    "eslint-plugin-vue": ">=5.2.3 <6"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.6.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-vue": "5.2.3"
+  }
+}
