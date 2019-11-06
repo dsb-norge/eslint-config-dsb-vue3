@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-dsb-vue",
+  "name": "@dsb-norge/eslint-config-dsb-vue",
   "version": "1.0.1",
   "description": "ESLint standard config for Vue.js projects",
   "keywords": [
