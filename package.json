@@ -13,6 +13,14 @@
   ],
   "author": "Nils Lien <nils.lien@dsb.no>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dsb-norge/eslint-config-dsb-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dsb-norge/eslint-config-dsb-vue/issues"
+  },
+  "homepage": "https://github.com/dsb-norge/eslint-config-dsb-vue",
   "peerDependencies": {
     "babel-eslint": ">=10.0.3 <11",
     "eslint": ">=6.6.0 <7",
