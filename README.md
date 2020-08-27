@@ -16,7 +16,7 @@ Install the package with:
 npx install-peerdeps --dev @dsb-norge/eslint-config-dsb-vue
 ```
 
-If using npm < 5:
+#### If using npm < 5:
 
 ```
 npm install -D @dsb-norge/eslint-config-dsb-vue
@@ -41,7 +41,7 @@ Now add the config to either your `package.json`:
 }
 ```
 
-to your `.eslintrc`:
+or to your `.eslintrc`:
 
 ```json
 {
@@ -49,7 +49,7 @@ to your `.eslintrc`:
 }
 ```
 
-or `.eslintrc.js`:
+or to your `.eslintrc.js`:
 
 ```js
 module.exports = {
