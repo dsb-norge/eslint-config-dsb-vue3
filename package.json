@@ -15,6 +15,9 @@
     "index.js"
   ],
   "author": "Nils Lien <nils.lien@dsb.no>",
+  "contributors": [
+    {"name":"Christopher Neumann Ruud","email":"christopher.ruud@dsb.no"}
+    ],
   "license": "ISC",
   "repository": {
     "type": "git",
