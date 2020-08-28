@@ -1,6 +1,6 @@
 {
   "name": "@dsb-norge/eslint-config-dsb-vue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint standard config for Vue.js projects",
   "keywords": [
     "eslint",
@@ -16,8 +16,11 @@
   ],
   "author": "Nils Lien <nils.lien@dsb.no>",
   "contributors": [
-    {"name":"Christopher Neumann Ruud","email":"christopher.ruud@dsb.no"}
-    ],
+    {
+      "name": "Christopher Neumann Ruud",
+      "email": "christopher.ruud@dsb.no"
+    }
+  ],
   "license": "ISC",
   "repository": {
     "type": "git",
