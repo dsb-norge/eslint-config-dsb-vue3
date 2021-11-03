@@ -29,7 +29,8 @@ module.exports = {
     'vue/object-curly-spacing': ['error', 'always'],
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': 'error',
-    'vue/v-on-function-call': 'error'
+    'vue/v-on-function-call': 'error',
+    'vue/no-empty-component-block': 'error'
   },
   parserOptions: {
     parser: 'babel-eslint',
