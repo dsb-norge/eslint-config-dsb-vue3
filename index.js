@@ -3,11 +3,12 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2020: true
+    es2021: true
   },
   extends: [
-    'plugin:vue/recommended',
-    'standard'
+    'eslint:recommended',
+    'plugin:vue/vue3-recommended',
+    '@vue/typescript/recommended'
   ],
   plugins: [
     'vue'
@@ -33,7 +34,6 @@ module.exports = {
     'vue/no-empty-component-block': 'error'
   },
   parserOptions: {
-    parser: 'babel-eslint',
     sourceType: 'module'
   }
 }
