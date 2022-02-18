@@ -1,6 +1,6 @@
 {
   "name": "@dsb-norge/eslint-config-dsb-vue",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "ESLint standard config for Vue.js projects",
   "keywords": [
     "eslint",
@@ -31,22 +31,21 @@
   },
   "homepage": "https://github.com/dsb-norge/eslint-config-dsb-vue",
   "peerDependencies": {
-    "babel-eslint": ">=10.1.0 <11",
-    "eslint": ">=7.7.0 <8",
-    "eslint-config-standard": ">=16.0.3 <17",
+    "@babel/eslint-parser": ">=7.17.0 <8",
+    "eslint": ">=8.9.0 <9",
+    "eslint-config-standard": ">=17.0.0-1 <18",
     "eslint-plugin-import": ">=2.22.0 <3",
-    "eslint-plugin-node": ">=11.1.0 <12",
-    "eslint-plugin-promise": ">=5.1.0 <6",
-    "eslint-plugin-standard": ">=5.0.0 <6",
-    "eslint-plugin-vue": ">=7.17.0 < 8"
+    "eslint-plugin-n": ">=14.0.0 <15",
+    "eslint-plugin-promise": ">=6.0.0 <7",
+    "eslint-plugin-vue": ">=8.4.1 < 9"
   },
   "devDependencies": {
-    "babel-eslint": "10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-vue": "^7.19.1"
+    "@babel/eslint-parser": "7.17.0",
+    "eslint": "^8.9.0",
+    "eslint-config-standard": "^17.0.0-1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-n": "^14.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^8.4.1"
   }
 }

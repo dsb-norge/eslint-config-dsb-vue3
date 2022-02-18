@@ -30,10 +30,12 @@ module.exports = {
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': 'error',
     'vue/v-on-function-call': 'error',
-    'vue/no-empty-component-block': 'error'
+    'vue/no-empty-component-block': 'error',
+    'vue/multi-word-component-names': 'off'
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    requireConfigFile: false,
+    parser: '@babel/eslint-parser',
     sourceType: 'module'
   }
 }

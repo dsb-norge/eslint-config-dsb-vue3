@@ -15,12 +15,6 @@ Install the package with:
 ```sh
 npx install-peerdeps --dev @dsb-norge/eslint-config-dsb-vue
 ```
-
-#### If using npm < 5:
-
-```
-npm install -D @dsb-norge/eslint-config-dsb-vue
-``` 
  
 Then install the correct versions of each peerDependency package, which are
 listed by the command:
@@ -63,7 +57,7 @@ This ESLint configuration comes with some fundamental assumptions:
 
 - vue.js and/or node environment
 - browser and/or node environment
-- parser: babel (used babel-eslint parser)
+- parser: babel (used @babel/eslint-parser)
 
 Despite some assumptions, [you can easily overwrite, extend and unset
 rules and any other setting in your custom eslint config](https://eslint.org/docs/user-guide/configuring).
