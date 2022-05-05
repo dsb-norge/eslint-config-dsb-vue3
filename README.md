@@ -30,7 +30,7 @@ Now add the config to either your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "@dsb-norge/dsb-vue"
+    "extends": "@dsb-norge/dsb-vue3"
   }
 }
 ```
@@ -39,7 +39,7 @@ or to your `.eslintrc`:
 
 ```json
 {
-  "extends": "@dsb-norge/dsb-vue"
+  "extends": "@dsb-norge/dsb-vue3"
 }
 ```
 
@@ -47,7 +47,7 @@ or to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: '@dsb-norge/dsb-vue'
+  extends: '@dsb-norge/dsb-vue3'
 }
 ```
 
@@ -55,9 +55,9 @@ module.exports = {
 
 This ESLint configuration comes with some fundamental assumptions:
 
-- vue.js and/or node environment
+- vue.js 3 and/or node environment
 - browser and/or node environment
-- parser: babel (used @babel/eslint-parser)
+- vite
 
 Despite some assumptions, [you can easily overwrite, extend and unset
 rules and any other setting in your custom eslint config](https://eslint.org/docs/user-guide/configuring).
