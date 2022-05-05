@@ -3,14 +3,14 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2020: true
+    es2021: true
   },
   extends: [
-    'plugin:vue/recommended',
+    'eslint:recommended',
+    'plugin:vue/vue3-recommended',
     'standard'
   ],
   plugins: [
-    'vue'
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error'] }] : 'warn',
@@ -35,7 +35,7 @@ module.exports = {
   },
   parserOptions: {
     requireConfigFile: false,
-    parser: '@babel/eslint-parser',
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaVersion: 2021
   }
 }

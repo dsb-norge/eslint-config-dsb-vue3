@@ -24,23 +24,21 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dsb-norge/eslint-config-dsb-vue.git"
+    "url": "git@github.com:dsb-norge/eslint-config-dsb-vue3.git"
   },
   "bugs": {
     "url": "https://github.com/dsb-norge/eslint-config-dsb-vue/issues"
   },
   "homepage": "https://github.com/dsb-norge/eslint-config-dsb-vue",
   "peerDependencies": {
-    "@babel/eslint-parser": ">=7.17.0 <8",
     "eslint": ">=8.9.0 <9",
-    "eslint-config-standard": ">=17.0.0-1 <18",
+    "eslint-config-standard": ">=17.0.0 <18",
     "eslint-plugin-import": ">=2.22.0 <3",
     "eslint-plugin-n": ">=15.0.0 <16",
     "eslint-plugin-promise": ">=6.0.0 <7",
     "eslint-plugin-vue": ">=8.4.1 < 9"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.17.0",
     "eslint": "^8.13.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
