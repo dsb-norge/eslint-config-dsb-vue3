@@ -1,26 +1,26 @@
-# eslint-config-dsb-vue
+# eslint-config-dsb-vue3
 
-[![npm version](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue.svg)](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue)
-[![GitHub license](https://img.shields.io/npm/l/@dsb-norge/eslint-config-dsb-vue)](https://github.com/dsb-norge/eslint-config-dsb-vue/blob/master/LICENSE.md)
+[![npm version](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue3.svg)](https://badge.fury.io/js/%40dsb-norge%2Feslint-config-dsb-vue3)
+[![GitHub license](https://img.shields.io/npm/l/@dsb-norge/eslint-config-dsb-vue3)](https://github.com/dsb-norge/eslint-config-dsb-vue3/blob/master/LICENSE.md)
 
 ## Installation
 
 The default export contains all default [ESLint rules](https://github.com/standard/eslint-config-standard) for [JavaScript Standard Style](http://standardjs.com/) , including
-the [recommended ruleset for Vue](https://eslint.vuejs.org/), and the ones listed in the [rules section](https://github.com/dsb-norge/eslint-config-dsb-vue/blob/master/index.js) .
+the [recommended ruleset for Vue](https://eslint.vuejs.org/), and the ones listed in the [rules section](https://github.com/dsb-norge/eslint-config-dsb-vue3/blob/master/index.js) .
 
 Note: It requires some peerDependencies as well.
 
 Install the package with:
 
 ```sh
-npx install-peerdeps --dev @dsb-norge/eslint-config-dsb-vue
+npx install-peerdeps --dev @dsb-norge/eslint-config-dsb-vue3
 ```
  
 Then install the correct versions of each peerDependency package, which are
 listed by the command:
 
 ```sh
-npm info "@dsb-norge/eslint-config-dsb-vue@latest" peerDependencies
+npm info "@dsb-norge/eslint-config-dsb-vue3@latest" peerDependencies
 ```
 
 ## Usage
