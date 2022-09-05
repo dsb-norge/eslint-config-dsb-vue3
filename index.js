@@ -8,9 +8,11 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:vue/vue3-recommended',
-    'standard'
+    'standard',
+    'plugin:vuejs-accessibility/recommended'
   ],
   plugins: [
+    'vuejs-accessibility'
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? ['error', { allow: ['error'] }] : 'warn',
