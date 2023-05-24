@@ -17,8 +17,8 @@
   "author": "Nils Lien <nils.lien@dsb.no>",
   "contributors": [
     {
-      "name": "Christopher Neumann Ruud",
-      "email": "christopher.ruud@dsb.no"
+      "name": "Chris Aurora Neumann Ruud",
+      "email": "chris.ruud@dsb.no"
     }
   ],
   "license": "ISC",
@@ -31,20 +31,21 @@
   },
   "homepage": "https://github.com/dsb-norge/eslint-config-dsb-vue3",
   "peerDependencies": {
-    "eslint": ">=8.23.0 <9",
+    "eslint": ">=8.41.0 <9",
     "eslint-config-standard": ">=17.0.0 <18",
-    "eslint-plugin-import": ">=2.26.0 <3",
-    "eslint-plugin-n": ">=15.2.5 <16",
-    "eslint-plugin-promise": ">=6.0.1 <7",
-    "eslint-plugin-vue": ">=9.4.0 < 10"
+    "eslint-plugin-import": ">=2.27.5 <3",
+    "eslint-plugin-n": ">=15.7.0 <16",
+    "eslint-plugin-promise": ">=6.1.1 <7",
+    "eslint-plugin-vue": ">=9.14.0 < 10",
+    "eslint-plugin-vuejs-accessibility": ">=2.1.0 < 3"
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.5",
-    "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-vue": "^9.4.0",
-    "eslint-plugin-vuejs-accessibility": "^1.2.0"
+    "eslint": "8.41.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-n": "15.7.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-vue": "9.14.0",
+    "eslint-plugin-vuejs-accessibility": "2.1.0"
   }
 }
