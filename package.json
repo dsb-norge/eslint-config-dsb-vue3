@@ -1,6 +1,6 @@
 {
   "name": "@dsb-norge/eslint-config-dsb-vue3",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "ESLint standard config for Vue 3 (JavaScript) projects using Flat config",
   "type": "module",
   "keywords": [
